@@ -36,8 +36,6 @@ ticker = ticker_set['Symbol']
 df = pdm.DataReader(ticker, 'fred', start='1958-01-01')
 
 
-#df = df.join(ticker_set, how='left', on='Symbol')
-
 # convert to quarterly data
 dfq = df.set_index(df.index).resample('QS')['LNS12300060','NROU','UNRATE','PCEPILFE'].mean()
 
