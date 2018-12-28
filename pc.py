@@ -2,7 +2,7 @@ import pandas as pd
 import pandas_datareader as pdm
 
 
-# recession indicators via NBER http://www.nber.org/cycles.html
+# recession indicators based on NBER http://www.nber.org/cycles.html
 
 r_df = pd.DataFrame(columns =['Peak','Trough'], 
     data =[['1948-11-01','1949-10-01'],
