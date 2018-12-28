@@ -61,3 +61,8 @@ plt.plot(dfq.pce_inf['1959':'1985'], '--', label="Inflation")
 plt.plot(dfq.slack['1959':'1985'], label ="Slack") 
 plt.legend()
 plt.axvspan('1960-04-01','1961-02-01',alpha=0.5)
+plt.axvspan('1969-12-01','1970-11-01',alpha=0.5)
+plt.axvspan('1973-11-01','1975-03-01',alpha=0.5)
+plt.axvspan('1980-01-01','1980-07-01',alpha=0.5)
+plt.axvspan('1981-07-01','1982-11-01',alpha=0.5)
+
